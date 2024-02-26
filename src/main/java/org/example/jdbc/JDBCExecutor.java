@@ -12,7 +12,7 @@ public class JDBCExecutor {
         try {
             Connection connection = dcm.getConnection();
             CustomerDAO customerDAO = new CustomerDAO(connection);
-            customerDAO.delete(10018);
+           // customerDAO.delete(10018);
 
         } catch (SQLException e) {
 
